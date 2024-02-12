@@ -1,5 +1,5 @@
 # Hubs Duck Add-On
-A A [Mozilla Hubs](https://github.com/mozilla/hubs/) add-on that adds support for spawning a duck in a Hubs room.
+A [Mozilla Hubs](https://github.com/mozilla/hubs/) add-on that adds support for spawning a duck in a Hubs room.
 
 ## Install
 1. Add the add-on to your Hubs client add-ons configuration file.
