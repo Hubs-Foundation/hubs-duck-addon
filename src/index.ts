@@ -92,7 +92,7 @@ function onReady(app: App) {
 
 let sounds = new Map<string, number>();
 
-registerAddon("duck", {
+registerAddon("hubs-duck-addon", {
   name: "Hubs Duck Add-on",
   description: `Spawns a duck when the "duck" chat command is invoked. It quacks.`,
   onReady: onReady,
