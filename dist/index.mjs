@@ -117,7 +117,7 @@ function onReady(app) {
   });
 }
 var sounds = /* @__PURE__ */ new Map();
-registerAddon("duck", {
+registerAddon("hubs-duck-addon", {
   name: "Hubs Duck Add-on",
   description: `Spawns a duck when the "duck" chat command is invoked. It quacks.`,
   onReady,
