@@ -9,7 +9,7 @@
       "forceConsistentCasingInFileNames": true,
       "outDir": "./dist",
       "sourceMap": true,
-      "moduleResolution": "node"
+      "moduleResolution": "node",
     },
     "include": ["src/**/*.ts", "types/*"],
     "exclude": ["node_modules", "dist"]
