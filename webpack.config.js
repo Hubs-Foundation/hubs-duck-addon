@@ -18,11 +18,7 @@ export default {
         exclude: /node_modules/,
       },
       {
-        test: /\.mp3/,
-        type: 'asset/inline'
-      },
-      {
-        test: /\.glb/,
+        test: /\.(png|jpg|gif|glb|ogg|mp3|mp4|wav|woff2|webm|3dl|cube)$/,
         type: 'asset/inline'
       }
     ],
@@ -35,7 +31,7 @@ export default {
     }
   },
   output: {
-    filename: 'index.js',
+    filename: 'index.mjs',
     path: path.resolve(__dirname, 'dist'),
     assetModuleFilename: 'assets/[name]-[hash][ext][query]',
     module: true, // Enable ES module output
