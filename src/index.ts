@@ -21,8 +21,8 @@ import {
   registerAddon,
 } from "hubs";
 import { Vector3 } from "three";
-import URL_QUACK from "./assets/quack.mp3";
-import URL_SPECIAL_QUACK from "./assets/specialquack.mp3";
+import URL_QUACK from "../assets/quack.mp3";
+import URL_SPECIAL_QUACK from "../assets/specialquack.mp3";
 import { DuckPrefab } from "./duck-prefab";
 
 const Quack = defineComponent({

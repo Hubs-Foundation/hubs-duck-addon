@@ -1,6 +1,6 @@
 /** @jsx createElementEntity */
 import { COLLISION_LAYERS, createElementEntity, EntityDef, Fit, FLOATY_OBJECT_FLAGS, getAbsoluteHref, Shape } from "hubs";
-import ducky from "./assets/DuckyMesh.glb";
+import ducky from "../assets/DuckyMesh.glb";
 
 export function DuckPrefab(): EntityDef {
   return (
