@@ -1,5 +1,8 @@
 import path from "path";
 import { fileURLToPath } from "url";
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
+const { peerDependencies } = require('./package.json');
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -43,6 +46,10 @@ export default {
   externals: {
     bitecs: 'bitecs',
     three: 'three',
-    hubs: 'hubs'
-  }
+    hubs: 'hubs',
+    ...Object.keys(peerDependencies).reduce((externals, dep) => { externals[dep] = dep; return externals; }, {})
+  },
+  optimization: {
+    minimize: false
+ },
 };
