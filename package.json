@@ -24,11 +24,11 @@
   "type": "module",
   "module": "dist/index.mjs",
   "peerDependencies": {
-    "bitecs": "github:mozilla/bitECS#hubs-patches",
-    "three": "github:mozillareality/three.js#65b5105908f5f135cad25fed07e25f15f3876777"
+    "bitecs": "github:Hubs-Foundation/bitECS#hubs-patches",
+    "three": "github:Hubs-Foundation/three.js#65b5105908f5f135cad25fed07e25f15f3876777"
   },
   "devDependencies": {
-    "@types/hubs": "github:MozillaReality/hubs-ts-types#main",
+    "@types/hubs": "github:Hubs-Foundation/hubs-ts-types#main",
     "@types/node": "^18.15.0",
     "@types/three": "^0.141.0",
     "ts-loader": "^9.5.1",
